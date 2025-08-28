@@ -21,46 +21,34 @@ Buyers should be able to directly message sellers with questions. They should al
 The app will be exchanging and storing a lot of user data. These are some of the technologies that it uses:
 
 - Application programming interface (API): An API is a set of rules that define how software components interact with each other. In application development, third-party APIs are commonly used to add functionality without having to program it from scratch.
-
 - Public key infrastructure (PKI): PKI is an encryption framework that secures the exchange of online information. The mobile app uses a combination of symmetric and asymmetric encryption algorithms: AES and RSA. AES encryption is used to encrypt sensitive data, such as credit card information. RSA encryption is used to exchange keys between the app and a user's device.
-
 - SHA-256: SHA-256 is a commonly used hash function that takes an input of any length and produces a digest of 256 bits. The sneaker app will use SHA-256 to protect sensitive user data, like passwords and credit card numbers.
-
 - Structured query language (SQL): SQL is a programming language used to create, interact with, and request information from a database. For example, the mobile app uses SQL to store information about the sneakers that are for sale, as well as the sellers who are selling them. It also  uses SQL to access that data during a purchase.
 
+---
 
+## PASTA Threat Model Investigation Sneaker App
 
-
-
-
-## USB Attack Vector Investigation
-
-This investigation documents a cybersecurity scenario involving a suspicious USB drive found in the parking lot of Rhetorical Hospital. It applies attacker mindset analysis and risk mitigation strategies to assess how personal and professional data stored on the device could be exploited. The activity emphasizes the importance of technical controls, employee awareness, and secure handling of removable media.
+This investigation applies the Process for Attack Simulation and Threat Analysis (PASTA) framework to assess the security posture of a mobile app developed by a sneaker company. The app facilitates buying and selling shoes, handles sensitive user data, and processes financial transactions. The activity emphasizes threat modeling as a proactive strategy to identify vulnerabilities and implement effective security controls before launch.
 
 ## My Contributions
 
-- Identified sensitive contents including PII and internal HR documents  
-- Applied attacker mindset to assess impersonation and phishing risks  
-- Proposed layered controls: technical, operational, and managerial  
-- Synthesized findings into a structured format aligned with AAA principles  
-
-## USB Attack Vector Table
-
-| **Category**         | **Details**                                                                                                                                                     |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Contents**         | - USB contained personal photos and HR files (e.g., new hire letter, shift schedule)  <br> - Included PII such as names, emails, and internal documents  <br> - Mixing personal and work files increases exposure risk |
-| **Attacker Mindset** | - Files could be used to impersonate Jorge or target coworkers  <br> - Timesheets and HR data could enable phishing <br> - USB may have been staged to lure internal access |
-| **Risk Analysis**    | - Malware like ransomware or remote access trojans could be hidden in .exe files  <br> - Plugging into a networked system could trigger compromise  <br> - Mitigations include disabling AutoPlay, enforcing MFA, RBAC, and employee training |
+- Defined business objectives including secure transactions and regulatory compliance (PCI-DSS, GLBA)
+- Prioritized SQL as a high-risk technology due to its role in data handling and injection exposure
+- Identified threats such as SQL injection and session hijacking based on app architecture
+- Analyzed vulnerabilities including lack of prepared statements and broken API tokens
+- Proposed layered security controls: SHA-256, incident response, password policy, least privilege
+- Synthesized findings across all seven PASTA stages into a structured, rubric-aligned format
 
 ## Reflection
 
-This activity reinforced the importance of treating unknown USB devices as potential threats. By analyzing attacker motivations and applying layered controls, I strengthened my understanding of physical attack vectors and internal security posture. The exercise also underscored how curiosity and careless handling of sensitive data can leave organizations vulnerable to significant security threats.
+This activity deepened my understanding of how threat modeling frameworks like PASTA guide security analysis from business goals to technical safeguards. By evaluating technologies, mapping threats, and proposing controls, I strengthened my ability to think like an attacker while defending like an analyst. The exercise also reinforced the importance of secure coding, input validation, and access control in protecting user data and maintaining trust.
 
 ---
 
 ## Screenshot of Exercise Investigation & Contents of the USB Stick
-![USB Attack Vector](images/image/usb-baiting-investigation.png)
-> This image captures the full response submitted as part of the Google Cybersecurity Certificate Parking Lot USB activity.
+![PASTA FRAMEWORK](images/image/pasta-threat-model-framework.png)
+> This image captures the full response submitted as part of the Google Cybersecurity Certificate PASTA Investigation for Sneaker App.
 
 <img width="632" height="816" alt="40" src="https://github.com/user-attachments/assets/be567192-330f-4368-aa2a-8ae135494600" />
 <img width="638" height="551" alt="41" src="https://github.com/user-attachments/assets/2ad71da8-af60-4330-9560-4c0fc4a2dc2f" />
