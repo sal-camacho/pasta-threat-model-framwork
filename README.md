@@ -27,7 +27,7 @@ The app will be exchanging and storing a lot of user data. These are some of the
 
 ---
 
-## PASTA Threat Model Investigation – Sneaker App
+## PASTA Threat Model Investigation — Sneaker App
 
 This investigation applies the Process for Attack Simulation and Threat Analysis (PASTA) framework to assess the security posture of a mobile app developed by a sneaker company. The app facilitates buying and selling shoes, handles sensitive user data, and processes financial transactions. The activity emphasizes threat modeling as a proactive strategy to identify vulnerabilities and implement effective security controls before launch.
 
