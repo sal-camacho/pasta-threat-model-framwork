@@ -27,7 +27,7 @@ The app will be exchanging and storing a lot of user data. These are some of the
 
 ---
 
-## PASTA Threat Model Investigation Sneaker App
+## PASTA Threat Model Investigation – Sneaker App
 
 This investigation applies the Process for Attack Simulation and Threat Analysis (PASTA) framework to assess the security posture of a mobile app developed by a sneaker company. The app facilitates buying and selling shoes, handles sensitive user data, and processes financial transactions. The activity emphasizes threat modeling as a proactive strategy to identify vulnerabilities and implement effective security controls before launch.
 
@@ -46,10 +46,12 @@ This activity deepened my understanding of how threat modeling frameworks like P
 
 ---
 
-## Screenshot of Exercise Investigation & Contents of the USB Stick
+## Screenshot of Pasta Worksheet, Sample of Data Flow Diagram & Attack Tree
 ![PASTA FRAMEWORK](images/image/pasta-threat-model-framework.png)
-> This image captures the full response submitted as part of the Google Cybersecurity Certificate PASTA Investigation for Sneaker App.
+> This image captures the full response submitted as part of the Google Cybersecurity Certificate PASTA Framework Activity on the Sneaker App.
 
-<img width="632" height="816" alt="40" src="https://github.com/user-attachments/assets/be567192-330f-4368-aa2a-8ae135494600" />
-<img width="638" height="551" alt="41" src="https://github.com/user-attachments/assets/2ad71da8-af60-4330-9560-4c0fc4a2dc2f" />
-<img width="998" height="644" alt="42" src="https://github.com/user-attachments/assets/ca593559-0f7f-40a1-9f12-a8d281835691" />
+
+<img width="596" height="784" alt="43" src="https://github.com/user-attachments/assets/ee822633-9ff5-4149-8a4b-713f58f65af0" />
+<img width="604" height="776" alt="44" src="https://github.com/user-attachments/assets/0f75e8b1-edfc-4f0d-9d11-925996760663" />
+<img width="1032" height="566" alt="45" src="https://github.com/user-attachments/assets/0606de9b-1a10-493c-9ef1-4e3e3f25c491" />
+<img width="1021" height="563" alt="46" src="https://github.com/user-attachments/assets/9c1cccad-8310-42f3-b87d-a9a78f00dc04" />
