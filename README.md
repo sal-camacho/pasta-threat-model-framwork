@@ -46,7 +46,7 @@ This activity deepened my understanding of how threat modeling frameworks like P
 
 ---
 
-## Screenshot of Pasta Worksheet, Sample of Data Flow Diagram & Attack Tree
+## Screenshot of Completed Pasta Worksheet, Sample of Data Flow Diagram & Attack Tree
 ![PASTA FRAMEWORK](images/image/pasta-threat-model-framework.png)
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate PASTA Framework Activity on the Sneaker App.
 
